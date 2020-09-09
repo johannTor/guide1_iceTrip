@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.topBar {
+    width: 100%;
+    background-image: url("images/icelandBanner2.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topBar__logo {
+    display: block;
+    margin: 0 auto;
+}
+
+.topBar__navigation {
+    background: none;
+}
+
+.topBar__navigation ul {
+    display: block;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.topBar__navigation li {
+    float: left;
+}
+
+.topBar__navigation li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 22px 55px;
+    font-family: "Lato";
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.topBar__navigation li a:hover {
+    color: gray;
+}
+
+.flexboxContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.flexboxContainer__flexbox-item {
+    width: 400px;
+    margin: 10px;
+}
+
+.flexboxContainer__flexbox-item img {
+    display: block;
+    height: 20em;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.flexboxContainer__flexbox-item h2 {
+    font-family: "Lato";
+    text-align: center;
+    padding: 10px 0;
+}
+
+.flexboxContainer__flexbox-item p {
+    font-family: "Roboto";
+    padding: 0 12px;
+}
+
+.flexboxContainer__flexbox-item ul {
+    padding: 4px 28px;
+}
+
+.about {
+    width: 80%;
+    height: 400px;
+    margin: 3em auto;
+    background-color: rgba(128, 128, 128, 0.1);
+    border-radius: 10%;
+}
+
+.about h1 {
+    font-family: "Lato";
+    font-size: 2em;
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+.about__content {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.about__content p {
+    padding: 10px 20px;
+    line-height: 1.5em;
+}
+
+.footer {
+    height: 48px;
+    background: lightblue;
+}
+
+.footer ul{
+    display: block;
+    height: 100%;
+    padding-left: 20px;
+    overflow: none;
+}
+
+.footer ul li {
+    float: left;
+    margin-left: 30px;
+    padding-top: 10px;
+}
