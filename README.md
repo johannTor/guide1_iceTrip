@@ -12,5 +12,5 @@ Within the html file I make use of:
 * Basic CSS for styling and attempted use of BEM notation.
 
 Then last but not least I learned publishing a static website using surge.sh.
-The link to it is: telling-lane.surge.sh
+The link to it is: telling-plane.surge.sh
 
